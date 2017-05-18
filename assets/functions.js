@@ -18,6 +18,7 @@ var swiperLeft = new Swiper(".ins-left", {
 
 swiperLeft.slideTo(10, 0, false);
 swiperLeft.lockSwipes(true);
+// swiperRight.watchSlidesProgress(true);
 
 // # # # # # # # # # #
 // Right Slider
@@ -25,8 +26,8 @@ swiperLeft.lockSwipes(true);
 
 var swiperRight = new Swiper(".ins-right", {
     pagination: ".swiper-pagination",
-    nextButton: ".swiper-button-next",
-    prevButton: ".swiper-button-prev",
+    nextButton: ".pixel-next",
+    prevButton: ".pixel-prev",
     paginationType: "progress",
 
     onSlideNextStart: function() {

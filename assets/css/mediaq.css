@@ -4,4 +4,33 @@
     height: 50%;
   }
 
+  h1{
+    font-size: 1em;
+  }
+
+  p{
+    font-size: 0.8em;
+    line-height: 25px;
+  }
+
+  a{
+    padding: 0px 4px;
+  }
+
+}
+
+@media (max-width: 560px) {
+  h1{
+    font-size: 0.8em;
+  }
+  p{
+    font-size: 0.6em;
+    line-height: 20px;
+    padding: 5px;
+  }
+
+  a{
+  font-size: 0.8em;
+  padding: 0px 6px;
+  }
 }
