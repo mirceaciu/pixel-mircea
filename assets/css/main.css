@@ -140,7 +140,9 @@ h1{
 }
 
 .swiper-button-disabled{
-  opacity: 0.3;
+  opacity: 0.5;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
 }
 
 .message{
