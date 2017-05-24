@@ -25,6 +25,10 @@ body {
   background-color: #232323;
 }
 
+.brick {
+  display: inherit !important;
+}
+
 .left-containter > .swiper-container > .swiper-wrapper > .swiper-slide {
   background-color: #232323;
 }

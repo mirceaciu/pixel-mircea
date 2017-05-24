@@ -59,6 +59,10 @@
     display: inherit;
     bottom: 55%;
   }
+  .brick {
+    display: block !important;
+  }
+
 }
 
 @media (max-height: 610px) and (min-width:900px)   {
@@ -69,4 +73,16 @@
     display: inherit;
     /*bottom: 50%;*/
   }
+
+  .brick {
+    display: block !important;
+  }
+
+  .brick > img {
+    position: relative;
+    top: 25%;
+    max-width: 100%;
+    max-height: 70%;
+  }
+
 }
