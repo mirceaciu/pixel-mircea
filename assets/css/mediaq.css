@@ -15,9 +15,9 @@
     line-height: 30px;
   }
 
-  .nav-button{
-    opacity: 0.5;
-  }
+  /*.nav-button{
+    opacity: 0.8;
+  }*/
 
   a{
     padding: 0px 4px;
@@ -25,7 +25,7 @@
     margin-top: 6px;
   }
   .message{
-    display: inherit;
+    display: none;
   }
 }
 
@@ -44,7 +44,7 @@
   padding: 0px 6px;
   }
   .message{
-    display: inherit;
+    display: none;
   }
 }
 
@@ -57,6 +57,7 @@
   }
   .message{
     display: inherit;
+    bottom: 55%;
   }
 }
 
@@ -66,6 +67,6 @@
   }
   .message{
     display: inherit;
-    left: 42%;
+    /*bottom: 50%;*/
   }
 }

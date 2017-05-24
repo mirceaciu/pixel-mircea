@@ -27,8 +27,8 @@ swiperLeft.lockSwipes(true);
 
 var swiperRight = new Swiper(".ins-right", {
     pagination: ".swiper-pagination",
-    nextButton: ".pixel-next",
-    prevButton: ".pixel-prev",
+    nextButton: ".project-next",
+    prevButton: ".project-prev",
     paginationType: "progress",
 
     onSlideNextStart: function() {
@@ -43,6 +43,15 @@ var swiperRight = new Swiper(".ins-right", {
       swiperLeft.lockSwipes(true);
     },
 });
+
+var swiperV = new Swiper('.swiper-container-v', {
+        // pagination: '.swiper-pagination-v',
+        // paginationClickable: true,
+        direction: 'vertical',
+        spaceBetween: 0,
+        nextButton: ".showcase-next",
+        prevButton: ".showcase-prev",
+    });
 
 var autoSizeText;
 

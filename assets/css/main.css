@@ -129,27 +129,54 @@ li{
   margin: 0 20px;
 }
 
-.imgfull{
-  background-image: url("../img/test3.png");
-  background-size: cover;
-  background-position: center left;
-}
+
 
 .nav-button {
-  display: block;
-  height: 44px;
+  height: 64px;
   width: 44px;
   background-image: url(../img/arrow.png);
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
   position: absolute;
   z-index: 22;
   top: 50%;
   background-repeat: no-repeat;
 }
 
-.pixel-next{
+.project-next{
   right: 0;
   transform: rotate(180deg);
+}
+
+.showcase-next{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  width: 60px;
+  height: 40px;
+  background-image: url(../img/arrow.png);
+  z-index: 1;
+  transform: rotate(-90deg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: -30px;
+}
+
+.showcase-prev{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 60px;
+  height: 40px;
+  background-image: url(../img/arrow.png);
+  z-index: 1;
+  transform: rotate(90deg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: -30px;
 }
 
 .swiper-button-disabled{
@@ -163,12 +190,97 @@ li{
   color: white;
   background: #232323;
   position: fixed;
-  top: 46%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  bottom: 10px;
+  left: 10px;
   z-index: 30;
   opacity: 0.7;
   padding: 2px 8px;
   display: none;
+}
+
+.showcase-bg{
+  background-size: cover;
+  background-position: center left;
+}
+
+.showcase-bg-small{
+    background: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #2d2d2d;
+}
+
+.imgfull{
+  background-image: url("../img/test3.png");
+}
+
+.imgfull2{
+  background-image: url("../img/test2.png");
+}
+
+.guy-1{
+  background-image: url("../img/guys/2face.png");
+}
+.guy-2{
+  background-image: url("../img/guys/batman.png");
+}
+.guy-3{
+  background-image: url("../img/guys/becca.png");
+}
+.guy-4{
+  background-image: url("../img/guys/bennie.png");
+}
+.guy-5{
+  background-image: url("../img/guys/collin.png");
+}
+.guy-6{
+  background-image: url("../img/guys/coyier.png");
+}
+.guy-7{
+  background-image: url("../img/guys/fool.png");
+}
+.guy-8{
+  background-image: url("../img/guys/frank.png");
+}
+.guy-9{
+  background-image: url("../img/guys/gadget.png");
+}
+.guy-10{
+  background-image: url("../img/guys/gennie.png");
+}
+.guy-11{
+  background-image: url("../img/guys/gojira.png");
+}
+.guy-12{
+  background-image: url("../img/guys/iron.png");
+}
+.guy-13{
+  background-image: url("../img/guys/luigi.png");
+}
+.guy-14{
+  background-image: url("../img/guys/mau5.png");
+}
+.guy-15{
+  background-image: url("../img/guys/megaman.png");
+}
+.guy-16{
+  background-image: url("../img/guys/nctk.png");
+}
+.guy-17{
+  background-image: url("../img/guys/ryu.png");
+}
+.guy-18{
+  background-image: url("../img/guys/scorpion.png");
+}
+.guy-19{
+  background-image: url("../img/guys/skrillex.png");
+}
+.guy-20{
+  background-image: url("../img/guys/soldier.png");
+}
+.guy-21{
+  background-image: url("../img/guys/spider.png");
+}
+.guy-22{
+  background-image: url("../img/guys/stein.png");
 }
