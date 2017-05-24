@@ -21,6 +21,10 @@ body {
   background-color: #232323;
 }
 
+.swiper-container-v > .swiper-wrapper > .swiper-slide{
+  background-color: #232323;
+}
+
 .left-containter > .swiper-container > .swiper-wrapper > .swiper-slide {
   background-color: #232323;
 }
@@ -180,9 +184,7 @@ li{
 }
 
 .swiper-button-disabled{
-  opacity: 0.5;
-  -webkit-filter: grayscale(1);
-  filter: grayscale(1);
+  opacity: 0.3;
 }
 
 .message{
@@ -207,7 +209,6 @@ li{
     background: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #2d2d2d;
 }
 
 .imgfull{
